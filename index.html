@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi RTLH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-blue-700 p-4 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold uppercase">SI-RTLH</h1>
+            <div class="space-x-4">
+                <a href="#beranda" class="hover:underline">Beranda</a>
+                <a href="#pembangunan" class="hover:underline">Pembangunan</a>
+                <a href="https://drive.google.com/drive/u/1/folders/1LzOr6-HZZ8Hk_IYtny5DnnAqU3K4Cw0U" class="hover:underline">Produk Hukum</a>
+                <a href="#pendataan" class="bg-yellow-400 text-blue-900 px-4 py-2 rounded font-bold hover:bg-yellow-300">Daftar Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="beranda" class="bg-blue-600 py-16 text-white text-center">
+        <h2 class="text-4xl font-extrabold mb-2">Sistem Informasi RTLH</h2>
+        <p class="text-lg opacity-90">Transparansi Bantuan Rumah Tidak Layak Huni untuk Masyarakat</p>
+    </header>
+
+    <main class="container mx-auto py-10 px-4">
+
+        <section id="pembangunan" class="mb-16">
+            <h3 class="text-2xl font-bold border-b-4 border-blue-500 inline-block mb-6">Informasi Pembangunan</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-bold text-blue-700">Tipe Bantuan</h4>
+                    <p class="text-sm mt-2">Peningkatan Kualitas (PK) dan Pembangunan Baru (PB) bagi masyarakat berpenghasilan rendah.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-bold text-blue-700">Realisasi 2026</h4>
+                    <p class="text-2xl font-bold text-gray-900">145 Unit</p>
+                    <p class="text-xs text-green-600">Tersebar di 5 Kecamatan</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h4 class="font-bold text-blue-700">Status Terkini</h4>
+                    <p class="text-sm mt-2">Tahap verifikasi lapangan gelombang ke-II sedang berlangsung.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hukum" class="mb-16">
+            <h3 class="text-2xl font-bold border-b-4 border-blue-500 inline-block mb-6">Produk Hukum</h3>
+            <div class="overflow-x-auto bg-white rounded-lg shadow">
+                <table class="w-full text-left">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="p-4 border-b">Nama Produk Hukum</th>
+                            <th class="p-4 border-b text-center">Tahun</th>
+                            <th class="p-4 border-b text-center">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-4 border-b">PERBUP No. 12 Tahun 2024 tentang Tata Cara Hibah RTLH</td>
+                            <td class="p-4 border-b text-center">2024</td>
+                            <td class="p-4 border-b text-center"><a href="#" class="text-blue-600 font-bold">Unduh PDF</a></td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 border-b">Keputusan Kepala Dinas No. 05 tentang Petunjuk Teknis</td>
+                            <td class="p-4 border-b text-center">2025</td>
+                            <td class="p-4 border-b text-center"><a href="#" class="text-blue-600 font-bold">Unduh PDF</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="pendataan" class="mb-16">
+            <h3 class="text-2xl font-bold border-b-4 border-blue-500 inline-block mb-6">Pendataan Mandiri</h3>
+            <div class="bg-white p-4 rounded-lg shadow-inner border border-gray-200">
+                <p class="mb-4 text-sm text-gray-600 italic">*Silakan isi formulir di bawah ini dengan data yang sebenar-benarnya.</p>
+                
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe 
+                        src="https://docs.google.com/forms/u/1/d/1zyxV-QoSbmONRjk2uBinPsS1KWeEdkmmH9ANB-E-W2U/edit" 
+                        width="100%" 
+                        height="800" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">Memuat…</iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p>&copy; 2026 Sistem Informasi RTLH - Dinas Perumahan Rakyat</p>
+    </footer>
+
+</body>
+</html>
